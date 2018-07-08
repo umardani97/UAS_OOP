@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package uas_oop;
-
+import java.util.Scanner;
 /**
  *
  * @author JKendil
