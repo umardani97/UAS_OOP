@@ -17,7 +17,7 @@ public class UAS_OOP {
         System.out.println("-----Tiket TRAVEL 21----");
         System.out.println("1. Palangka Raya-Banjarmasin    Rp 120.000/org");
         System.out.println("2. Palangka Raya-Sampit         Rp 110.000/org");
-        System.out.println("2. Banjarmasin-Samarinda        Rp 200.000/org");
+        System.out.println("3. Banjarmasin-Samarinda        Rp 200.000/org");
         System.out.println("Silakan Pilih Nomor Sesuai Tujuan Anda   ");
         for(String b = "y"; b.equals("y");){
              Scanner no= new Scanner(System.in);
