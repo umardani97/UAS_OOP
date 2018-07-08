@@ -11,11 +11,37 @@ import java.util.Scanner;
  */
 public class UAS_OOP {
     public static void main(String[] args) {
+        int a=0;
+        int c=0;
+        int d=0;
         System.out.println("-----Tiket TRAVEL 21----");
         System.out.println("1. Palangka Raya-Banjarmasin    Rp 120.000/org");
         System.out.println("2. Palangka Raya-Sampit         Rp 110.000/org");
         System.out.println("2. Banjarmasin-Samarinda        Rp 200.000/org");
-        System.out.println("Masukkan No Sesuai Tujuan Anda   ");
+        System.out.println("Silakan Pilih Nomor Sesuai Tujuan Anda   ");
+        for(String b = "y"; b.equals("y");){
+             Scanner no= new Scanner(System.in);
+             System.out.println("Masukkan Nomor");
+             a=no.nextInt();
+             if(a==1){
+                 System.out.println("Pilih Waktu Keberangkatan");
+                 System.out.println("1. 08.00    2. 13.00   3. 16.00");
+                 d=no.nextInt();
+                 System.out.println("Jumlah :");
+                 c=no.nextInt();
+                 int jmh=c* 120000;
+                 if(d==1){
+                     System.out.println("Waktu Keberangkatan Anda jam 08.00");
+                 }else if(d==2){
+                     System.out.println("Waktu Keberangkatan Anda jam 13.00");
+                 }else{
+                     System.out.println("Waktu Keberangkatan Anda jam 16.00");
+                 }
+             }
+              Scanner rumus = new Scanner(System.in);   
+            System.out.print("Mau Memesan Lagi (Y/T) "); 
+        b = no.next();
+        }
     }
     
 }
